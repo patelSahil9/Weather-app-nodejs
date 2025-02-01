@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <style>
+            body {
+                background-color: #f0f0f0;
+                font-family: Arial, sans-serif;
+            }
+            h1 {
+                text-align: center;
+            }
+            form {
+                width: 50%;
+                margin: 0 auto;
+                text-align: center;
+            }
+            input[type=text] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+            }
+            button[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Weather App</h1>
+        <form action="/search" method="post">
+            <input type="text" name="city" placeholder="Enter City Name">
+            <button type="submit">Search</button>
+        </form>
+    </body>
+</html>
