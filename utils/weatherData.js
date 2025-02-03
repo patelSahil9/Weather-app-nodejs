@@ -19,5 +19,5 @@ const weatherData = (address, callback) => {
     });
 };
 
-module.exports = weatherData;
+module.exports = weatherData; 
     
